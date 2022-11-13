@@ -1,0 +1,108 @@
+-- New log history!
+------ [MAIN][42849][START] starting the server
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------------------- 3 exploring new
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 2 exploring new
+---------------------- 1 exploring new
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+---------------------- 2 exploring new
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------------------- 3 exploring new
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 1 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+---------------------- 3 rechecking some (subreddit)
+---------------------- 2 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 1 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+---------------------- 3 rechecking some (subreddit)
+---------------------- 2 exploring new
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 1 exploring new
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------------------- 2 exploring new
+---------------------- 3 exploring new
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 1 exploring new
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------------------- 2 rechecking some (subreddit)
+---------------------- 3 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 1 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------------------- 2 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 3 rechecking some (subreddit)
+---------------------- 1 exploring new
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+---------------------- 3 exploring new
+---------------------- 2 exploring new
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 1 exploring new
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+---------------------- 3 exploring new
+---------------------- 2 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 1 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+---------------------- 3 rechecking some (subreddit)
+---------------------- 2 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 1 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+---------------------- 3 exploring new
+---------------------- 2 exploring new
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 1 exploring new
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+---------------------- 3 exploring new
+---------------------- 2 exploring new
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 1 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+---------------------- 3 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------------------- 2 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 1 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+---------------------- 3 rechecking some (subreddit)
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------------------- 2 exploring new
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 1 exploring new
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+---------------------- 3 exploring new
+---------------------- 2 exploring new
+---------- [MAINSLAVE][42850][START] Generating tasks for exploratory data
+---------- [MAINSLAVE][42850][END] Generating tasks for exploratory data
+---------------------- 1 exploring new
+---------- [MAINSLAVE][42850][START] Generating tasks for routine schedules
+---------- [MAINSLAVE][42850][END] Generating tasks for routine schedules
+------ [MAIN][42849][END] closing the server
