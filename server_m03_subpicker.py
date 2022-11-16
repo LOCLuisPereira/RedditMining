@@ -44,13 +44,20 @@ STARTS BY CHECKING THE EXISTANCE OF THE CONTROL VARIABLE.
 IF DOES NOT EXISTS, IT STARTS BY CREATING AND POPULATING WITH DEFAULT.
 OTHERWISE, IT ITERATES THROUGHT THE MEMBERS OF SUBREDDIT CONTROL VAR INSIDE REDIS
     AND GIVES THE DEFAULT VALUE TO NEW ENTRIES
+
+BY CHANGING THE BOOL VARIABLE, THE SYSTEM IS RESETED.
+
+ADDED A NEW FILE, CREATING AS THE INFO IS UPDATED.
+THIS FILE IS MORE CONVINIENT FOR FUTURE MININGS OR FAST DATA CHECK UP.
+INITIALLY THE IDEA WAS TO KEEP THE FILE ON THE POST REQUEST, BUT KEEPING IT
+    INSIDE THE CYCLE AND ALLOW ABSTRACTION FOR THE FRONTEND IS BETTER.
 '''
 @app.on_event('startup')
 @repeat_every(seconds=5*60)
 async def populateControlSubreddit() :
     print(f'== STARTING POPULATING SUBREDDIT CONTROL ON REDDIS ==')
 
-    if True :
+    if False :
         db_redis.delete('selected')
         print( db_redis.keys() )
 
@@ -65,6 +72,18 @@ async def populateControlSubreddit() :
     print(f'== FINISHED POPULATING SUBREDDIT CONTROL ON REDDIS ==')
 
 
+    '''FILE UPDATE/ CREATION'''
+    print(f'== STARTING CREATING CONVENIENCE FILE ==')
+    
+    if 'ConfigFiles' not in os.listdir() :
+        os.mkdir('ConfigFiles')
+    with open('ConfigFiles/subreddits2mine.json', 'w') as fs :
+        obj = {}
+        for k,v in db_redis.hgetall('selected').items() :
+            obj[k] = v
+        fs.write(dumps(obj, indent=2))
+
+    print(f'== FINISHED CREATING CONVENIENCE FILE ==')
 
 
 '''
@@ -95,7 +114,6 @@ async def f( request: Request ) :
     rcvd = await request.json()
     
     for k,v in rcvd.items() :
-        print(k,v)
         value = 1 if v else 0
         db_redis.hset('selected', k, value)
 

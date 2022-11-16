@@ -1,6 +1,7 @@
 Dashboard_M00/
 Dashboard_M03_SubPicker/
 Data/
+ConfigFiles/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

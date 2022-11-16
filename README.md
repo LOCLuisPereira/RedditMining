@@ -24,6 +24,8 @@
     - Two pipelines.
     - Redis -> Transform -> NextJS.
     - NextJS -> Transform -> Redis.
+  - Creates a file containing information about the subreddits and its option to mine or not to mine.
+    - Location. `ConfigFiles/subreddits2mine.json`.
 
 # Reformed Tag.
 - `miner0_0_EDA.py`.
