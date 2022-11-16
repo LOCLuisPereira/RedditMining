@@ -1,5 +1,31 @@
 # RedditMining
 
+# Currently Used.
+## V0.3.
+- `n0_3.py`.
+  - Main program.
+  - API-based miner.
+  - Uses Redis for control-based navigation inside the implicit Reddit graph.
+- `n0_3_stats.py`.
+  - Terminal-based dashboard.
+  - Show the number of subreddits, submissions and users found.
+- `Dashboard_M03_SubPicker`.
+  - Interactive dashboard.
+  - NextJS and Style-Component.
+  - Frontend job.
+  - Changes information with a Python-FastAPI server.
+  - Receives and sends list of subreddits and their current status.
+  - Interactive clicking for status changing.
+  - Interactive filter - without lowercase restrictions - for finding subreddits.
+- `server_m03_subpicker.py`.
+  - FastaAPI based served.
+  - Middleware between redis and nextjs frontend.
+  - Receives information from both sides, processess it and give it the respective usage.
+    - Two pipelines.
+    - Redis -> Transform -> NextJS.
+    - NextJS -> Transform -> Redis.
+
+# Reformed Tag.
 - `miner0_0_EDA.py`.
   - Ad hoc miner for testing overall settings.
   - Ad hoc data gathering for structure inference.
