@@ -67,6 +67,11 @@ async def populateControlSubreddit() :
 
 
 
+'''
+SEND INFORMATION TO THE FRONT END PAGE ABOUT THE SUBREDDIT LISTS TO MINE.
+FROM REDIS HSET - SELECTED -  THE PROGRAM PARSES THE INFORMATION TO FIT
+    INSIDE THE MSG FORMAT
+'''
 @app.get('/rcv_subreddit_list')
 async def f() :
     print(f'SENDING INFORMATION ABOUT SELECTED SUBREDDITS')
@@ -80,6 +85,10 @@ async def f() :
     return {'subredditList' : subreddits}
 
 
+'''
+RECEIVE INFORMATION FRMO THE FRONT END PAGA ABOUT THE SUBREDDIT LISTS TO MINE.
+PARSES IT AND UPDATES THE INFORMATION ON REDIS HSET - SELECTED.
+'''
 @app.post('/snd_subreddit_list')
 async def f( request: Request ) :
     print(f'RECEIVING INFORMATION ABOUT SELECTED SUBREDDITS')
