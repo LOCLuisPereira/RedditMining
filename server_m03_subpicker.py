@@ -93,7 +93,7 @@ FROM REDIS HSET - SELECTED -  THE PROGRAM PARSES THE INFORMATION TO FIT
 '''
 @app.get('/rcv_subreddit_list')
 async def f() :
-    print(f'SENDING INFORMATION ABOUT SELECTED SUBREDDITS')
+    print(f'== SENDING INFORMATION ABOUT SELECTED SUBREDDITS ==')
 
     def f( item ) :
         value = True if item[1] == '1' else False
@@ -110,7 +110,7 @@ PARSES IT AND UPDATES THE INFORMATION ON REDIS HSET - SELECTED.
 '''
 @app.post('/snd_subreddit_list')
 async def f( request: Request ) :
-    print(f'RECEIVING INFORMATION ABOUT SELECTED SUBREDDITS')
+    print(f'== RECEIVING INFORMATION ABOUT SELECTED SUBREDDITS ==')
     rcvd = await request.json()
     
     for k,v in rcvd.items() :

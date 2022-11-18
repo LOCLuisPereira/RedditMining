@@ -9,6 +9,8 @@
 - `n0_3_stats.py`.
   - Terminal-based dashboard.
   - Show the number of subreddits, submissions and users found.
+- `n0_3_dataSaving.py`.
+  - Dumps redis database inside a JSON file.
 - `Dashboard_M03_SubPicker`.
   - Interactive dashboard.
   - NextJS and Style-Component.
